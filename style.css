@@ -1,0 +1,164 @@
+/* Basic styling for the micro‑niche resource site */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Container for consistent width */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Navigation bar */
+.navbar {
+  background-color: #003366;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar .logo {
+  font-size: 1.3em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.navbar a:hover {
+  background-color: #0055aa;
+}
+
+/* Hero section */
+.hero {
+  background-color: #0055aa;
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ffaa33;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #e69500;
+}
+
+.button.small {
+  padding: 8px 15px;
+  font-size: 0.9em;
+}
+
+.button.disabled {
+  background-color: #ccc;
+  pointer-events: none;
+  color: #666;
+}
+
+/* Sections */
+.section {
+  padding: 50px 0;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Posts */
+.posts .post {
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.posts .post h3 {
+  margin-top: 0;
+}
+
+.posts .post .meta {
+  font-size: 0.8em;
+  color: #666;
+}
+
+/* Products grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card h3 {
+  margin-top: 0;
+}
+
+/* Contact list */
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
