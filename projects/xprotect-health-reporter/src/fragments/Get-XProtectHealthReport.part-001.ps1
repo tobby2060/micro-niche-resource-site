@@ -25,6 +25,12 @@
 function Get-XpHardwareHealth {
     [CmdletBinding()]
     param(
+        [Parameter(Mandatory)]
+        $Hardware,
+
+        [Parameter()]
+        [object[]]$CameraRows = @(),
+
         [Parameter()]
         [AllowNull()]
         $DirectStatus
